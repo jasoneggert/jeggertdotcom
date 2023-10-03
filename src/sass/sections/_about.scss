@@ -23,6 +23,10 @@
       padding-bottom: 5rem;
     }
 
+    @include respond(tab-port-sm) {
+      flex-direction: column-reverse;
+    }
+
     &__image {
       display: flex;
       height: 100%;
@@ -35,6 +39,12 @@
       @include respond(tab-port-sm) {
         padding-bottom: 6.4rem;
       }
+    }
+
+    &__image-circle {
+      width: 300px;
+      border-radius: 50%;
+      overflow: hidden;
     }
 
     &__info {

@@ -15,14 +15,38 @@
   right: 0;
   z-index: -1;
 
-  // Set position sticky so the jumbotron stays fixed while you scroll.
-  // position: sticky;
+  @media screen and (max-width: 850px) {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    height: auto;
+    padding-bottom: 5.6rem;
+  }
 
-  // If you want to set a background image on the hero section, uncomment these with your custom image
+  .egg {
+    padding: 16px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 38.19%;
+    @media screen and (min-width: 850px) {
+      position: relative;
+      top: -40px;
+    }
 
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
+    img {
+      width: 100%;
+    }
+  }
+
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
