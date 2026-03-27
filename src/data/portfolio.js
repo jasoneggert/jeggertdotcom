@@ -24,15 +24,11 @@ export const about = [
 export const highlights = [
 	{
 		label: "Focus",
-		value: "Product, engineering, and UX",
+		value: "Architecture, engineering, product, and UX",
 	},
 	{
 		label: "Current",
-		value: "Leading product work at MetaCX",
-	},
-	{
-		label: "Background",
-		value: "Design, frontend, and product strategy",
+		value: "Principal Full Stack Engineer @ spokenote",
 	},
 ];
 
@@ -141,7 +137,7 @@ export const experience = [
 
 export const personalProjects = [
 	{
-		name: "WalkthroughIRL",
+		name: "WalkthruIRL",
 		summary:
 			"A location-aware app that sends notifications when users are near specific coordinates, turning physical places into triggers for guided experiences and contextual prompts.",
 		link: "",
