@@ -9,7 +9,7 @@ import fusionallianceImage from "../assets/fusionalliance.jpg";
 import discountfiltersImage from "../assets/discountfilters.webp";
 export const profile = {
 	name: "Jason Eggert",
-	title: "Product Engineer",
+	title: "Fullstack Product Engineer",
 	intro:
 		"I turn product strategy, design, and engineering into software people actually use.",
 	location: "Indiana, USA",
