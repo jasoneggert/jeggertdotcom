@@ -2,6 +2,9 @@ import profileImage from "../assets/profile.png";
 import metacxImage from "../assets/metacx.webp";
 import learnImage from "../assets/learn.png";
 import greenlightGuruImage from "../assets/gg.png";
+import spokenoteImage from "../assets/spokenote.webp";
+import everonImage from "../assets/everon.jpeg";
+import veevaImage from "../assets/veeva.png";
 
 export const profile = {
 	name: "Jason Eggert",
@@ -39,18 +42,18 @@ export const experience = [
 		period: "Sep 2025 - Present",
 		summary:
 			"Owns end-to-end product development for dynamic video applications, covering product definition, UX, architecture, implementation, launch, and iteration. Builds AI-powered workflows, retrieval-driven features, and AWS-based customer experiences with Next.js, React, and Node.js.",
-		link: "",
-		image: null,
+		link: "https://spokenote.com/",
+		image: spokenoteImage,
 		accent: "from-ink-1",
 	},
 	{
-		company: "Everon",
+		company: "Digiop/Everon",
 		role: "Senior Full Stack Software Engineer",
 		period: "Oct 2024 - Sep 2025",
 		summary:
 			"Designed and delivered a real-time video surveillance platform for secure multi-camera monitoring at scale, including streaming, storage, and analytics systems for high-throughput concurrent sessions on Microsoft Azure.",
-		link: "",
-		image: null,
+		link: "https://www.everonsolutions.com/solutions/video-solutions/active-video-monitoring",
+		image: everonImage,
 		accent: "from-slate-1",
 	},
 	{
@@ -58,9 +61,9 @@ export const experience = [
 		role: "Senior Product Manager",
 		period: "Jun 2023 - Oct 2024",
 		summary:
-			"Led the evolution of an internal UI platform used across dozens of life sciences applications, introducing reusable UI business logic, improving accessibility and platform consistency, and increasing delivery speed in an AWS-oriented environment.",
-		link: "",
-		image: null,
+			"Managed the evolution of an internal platform used across dozens of life sciences applications, introducing reusable UI business logic, improving accessibility and platform consistency, and increasing delivery speed in an AWS-oriented environment.",
+		link: "https://www.veeva.com/products/vault-platform/",
+		image: veevaImage,
 		accent: "from-rose-1",
 	},
 	{
@@ -80,7 +83,7 @@ export const experience = [
 		summary:
 			"Designed and delivered global app commenting with Loom integration and advanced data and network capabilities supporting enterprise and social-impact initiatives on a GraphQL product platform in GCP.",
 		link: "https://metacx.com/",
-		image: null,
+		image: metacxImage,
 		accent: "from-orange-2",
 	},
 	{
@@ -90,7 +93,7 @@ export const experience = [
 		summary:
 			"Led development of a complex event-driven application from inception through scale, defined UX strategy, built a design system with React, GraphQL, and Storybook, and drove broad GraphQL adoption for frontend development.",
 		link: "https://metacx.com/",
-		image: null,
+		image: metacxImage,
 		accent: "from-orange-3",
 	},
 	{
