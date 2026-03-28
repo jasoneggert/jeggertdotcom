@@ -5,7 +5,7 @@ import greenlightGuruImage from "../assets/gg.png";
 import spokenoteImage from "../assets/spokenote.webp";
 import everonImage from "../assets/everon.jpeg";
 import veevaImage from "../assets/veeva.png";
-import fusionallianceImage from "../assets/fussionalliance.jpg";
+import fusionallianceImage from "../assets/fusionalliance.jpg";
 import discountfiltersImage from "../assets/discountfilters.webp";
 export const profile = {
 	name: "Jason Eggert",
