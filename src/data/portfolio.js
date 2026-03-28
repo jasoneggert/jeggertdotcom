@@ -165,6 +165,14 @@ export const personalProjects = [
 		accent: "from-gold-1",
 	},
 	{
+		name: "door-guy",
+		summary:
+			"A lightweight, affordable feature flagging app built for small teams that want simple rollout controls without enterprise overhead. It is designed to make staged releases, testing, and safer launches accessible without the complexity of a large platform.",
+		link: "",
+		cta: "",
+		accent: "from-ink-1",
+	},
+	{
 		name: "Superposition",
 		summary:
 			"A quantum computing simulator with interactive visualizations of quantum phenomena, listed on your GitHub portfolio site.",
