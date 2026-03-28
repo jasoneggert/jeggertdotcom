@@ -4,6 +4,7 @@ import { profile } from "../data/portfolio";
 
 function Hero() {
 	return (
+		// biome-ignore lint/correctness/useUniqueElementIds: its fine
 		<section className="hero" id="top">
 			<div className="hero__copy">
 				<img className="hero__egg" src={eggLogo} alt="" aria-hidden="true" />

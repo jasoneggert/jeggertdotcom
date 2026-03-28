@@ -5,7 +5,8 @@ import greenlightGuruImage from "../assets/gg.png";
 import spokenoteImage from "../assets/spokenote.webp";
 import everonImage from "../assets/everon.jpeg";
 import veevaImage from "../assets/veeva.png";
-
+import fusionallianceImage from "../assets/fussionalliance.jpg";
+import discountfiltersImage from "../assets/discountfilters.webp";
 export const profile = {
 	name: "Jason Eggert",
 	title: "Product Engineer",
@@ -117,13 +118,13 @@ export const experience = [
 		accent: "from-green-1",
 	},
 	{
-		company: "Fusion Alliance",
+		company: "Fusion Alliance (aquired by New Era Technology)",
 		role: "UX Consultant",
 		period: "Apr 2014 - Mar 2015",
 		summary:
 			"Delivered UX and engineering solutions across insurance and life sciences clients, helping teams ship clearer experiences and stronger systems in AWS-oriented environments.",
-		link: "",
-		image: null,
+		link: "https://www.neweratech.com/",
+		image: fusionallianceImage,
 		accent: "from-gold-1",
 	},
 	{
@@ -132,8 +133,8 @@ export const experience = [
 		period: "Dec 2012 - Apr 2014",
 		summary:
 			"Founded and led a UX and conversion optimization function, running experiments and product improvements that drove double-digit conversion gains in an AWS-based ecommerce environment.",
-		link: "",
-		image: null,
+		link: "https://www.discountfilters.com/",
+		image: discountfiltersImage,
 		accent: "from-aqua-1",
 	},
 ];
