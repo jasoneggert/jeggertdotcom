@@ -7,8 +7,9 @@ import everonImage from "../assets/everon.jpeg";
 import veevaImage from "../assets/veeva.png";
 import fusionallianceImage from "../assets/fusionalliance.jpg";
 import discountfiltersImage from "../assets/discountfilters.webp";
-import wlakthruIRLimage from "../assets/walkthruIRL.png";
+import walkthruIRLIMage from "../assets/walkthruIRL.png";
 import handymannowImage from "../assets/handymannow.png"
+import gigscriptionsImage from "../assets/gigscriptions.png"
 export const profile = {
 	name: "Jason Eggert",
 	title: "Fullstack Product Engineer",
@@ -148,17 +149,18 @@ export const personalProjects = [
 		summary:
 			"A location-aware app that sends notifications when users are near specific coordinates, turning physical places into triggers for guided experiences and contextual prompts.",
 		link: "",
-		cta: "",
+		cta: "Coming Soon",
 		accent: "from-aqua-1",
-		image: wlakthruIRLimage,
+		image: walkthruIRLIMage,
 	},
 	{
 		name: "Gigscription",
 		summary:
 			"A subscription product for service providers on retainer or who just want to streamline revenue and chase fewer invoices.",
 		link: "",
-		cta: "",
+		cta: "Coming Soon",
 		accent: "from-rose-1",
+    image: gigscriptionsImage,
 	},
 	{
 		name: "Handyman Now",
