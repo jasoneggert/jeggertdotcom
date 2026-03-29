@@ -8,6 +8,7 @@ import veevaImage from "../assets/veeva.png";
 import fusionallianceImage from "../assets/fusionalliance.jpg";
 import discountfiltersImage from "../assets/discountfilters.webp";
 import wlakthruIRLimage from "../assets/walkthruIRL.png";
+import handymannowImage from "../assets/handymannow.png"
 export const profile = {
 	name: "Jason Eggert",
 	title: "Fullstack Product Engineer",
@@ -166,6 +167,7 @@ export const personalProjects = [
 		link: "https://www.handymannow.com/",
 		cta: "Visit site",
 		accent: "from-gold-1",
+    image: handymannowImage,
 	},
 	{
 		name: "door-guy",
