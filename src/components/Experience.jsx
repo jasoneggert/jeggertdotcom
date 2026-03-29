@@ -20,6 +20,11 @@ function Experience() {
 								<img
 									src={item.image}
 									alt={`${item.company} project screenshot`}
+									className={
+										item.mediaMode === "contain"
+											? "experience-card__image experience-card__image--contain"
+											: "experience-card__image"
+									}
 								/>
 							) : (
 								<div

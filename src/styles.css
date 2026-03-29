@@ -283,6 +283,16 @@ img {
 	padding: 1.25rem;
 }
 
+.project-tile__media img {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 1.25rem;
+	box-shadow: 0 16px 30px rgba(16, 33, 39, 0.12);
+}
+
 .experience-card__media::before {
 	content: "";
 	position: absolute;
@@ -337,7 +347,7 @@ img {
 	background: linear-gradient(135deg, #d8ecea, #eef7f6);
 }
 
-.experience-card__media img {
+.experience-card__image {
 	position: relative;
 	z-index: 1;
 	width: 100%;
@@ -345,6 +355,11 @@ img {
 	object-fit: cover;
 	border-radius: 1.25rem;
 	box-shadow: 0 16px 30px rgba(16, 33, 39, 0.12);
+}
+
+.experience-card__image--contain {
+	object-fit: contain;
+	background: rgba(255, 255, 255, 0.92);
 }
 
 .experience-card__placeholder {

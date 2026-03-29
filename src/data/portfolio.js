@@ -7,6 +7,7 @@ import everonImage from "../assets/everon.jpeg";
 import veevaImage from "../assets/veeva.png";
 import fusionallianceImage from "../assets/fusionalliance.jpg";
 import discountfiltersImage from "../assets/discountfilters.webp";
+import wlakthruIRLimage from "../assets/walkthruIRL.png";
 export const profile = {
 	name: "Jason Eggert",
 	title: "Fullstack Product Engineer",
@@ -125,6 +126,7 @@ export const experience = [
 			"Delivered UX and engineering solutions across insurance and life sciences clients, helping teams ship clearer experiences and stronger systems in AWS-oriented environments.",
 		link: "https://www.neweratech.com/",
 		image: fusionallianceImage,
+		mediaMode: "contain",
 		accent: "from-gold-1",
 	},
 	{
@@ -147,6 +149,7 @@ export const personalProjects = [
 		link: "",
 		cta: "",
 		accent: "from-aqua-1",
+		image: wlakthruIRLimage,
 	},
 	{
 		name: "Gigscription",

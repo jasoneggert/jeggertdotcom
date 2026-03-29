@@ -13,9 +13,13 @@ function PersonalProjects() {
 				{personalProjects.map((project) => (
 					<article className="project-tile" key={project.name}>
 						<div className={`project-tile__media ${project.accent}`}>
-							<div className="project-tile__placeholder" aria-hidden="true">
-								<span>{project.name}</span>
-							</div>
+							{project.image ? (
+								<img src={project.image} alt={`${project.name} screenshot`} />
+							) : (
+								<div className="project-tile__placeholder" aria-hidden="true">
+									<span>{project.name}</span>
+								</div>
+							)}
 						</div>
 						<div className="project-tile__content">
 							<h3>{project.name}</h3>
